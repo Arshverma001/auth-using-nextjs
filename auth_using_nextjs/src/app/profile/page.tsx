@@ -27,11 +27,11 @@ export default function ProfilePage() {
     }
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen py-2">
-            <h1>Profile</h1>
+        <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-slate-950 text-blue-700">
+            <h1 >Profile</h1>
             <hr />
             <p>Profile page</p>
-            <h2 className="p-1 rounded bg-green-500">{data === 'nothing' ? "Nothing" : <Link href={`/profile/${data}`}>{data}
+            <h2 className="p-1 rounded bg-green-500 ">{data === 'nothing' ? "Nothing" : <Link href={`/profile/${data}`}>{data}
             </Link>}</h2>
         <hr />
         <button
