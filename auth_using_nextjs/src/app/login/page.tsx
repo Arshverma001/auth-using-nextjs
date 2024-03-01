@@ -67,6 +67,8 @@ export default function loginPage(){
                 onClick={onLogin} 
                 className="p-3 bg-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600"> Login Here</button>
                 <Link href="/signup" className="text-white">Visit Signup Page</Link>
+
+                <Link href="/sendemail" className="text-white mt-4">Forgot Password</Link>
                 
         </div>
     )
